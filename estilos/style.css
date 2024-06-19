@@ -64,9 +64,57 @@ section#login > div#formulario > h1{
         padding-bottom: 5px;
 }
 
-section#login > div#formulario>p {
+section#login > div#formulario > p {
         text-align: justify;
         text-indent: 5px;
         font-size: 12px;
         padding-bottom: 8px;
+}
+
+section#login >  div#formulario > form{
+        padding: 5px;
+
+}
+
+section#login > div#formulario> form > label{
+        font-size: 15px;
+        margin-bottom: 10px;
+}
+
+section#login> div#formulario > form > input{
+        margin: 5px;
+        padding: 4px;
+        border-radius: 4px;      
+}
+
+section#login> div#formulario > form > input:hover {
+        box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.486);
+}
+
+section#login > div#formulario > form > p {
+        text-indent: 10px;
+        margin-bottom: 10px;
+}
+
+section#login > div#formulario > form > p > a {
+        text-decoration: none;
+        color: black;
+
+        font-size: 12px;
+}
+
+section#login > div#formulario > form > p > a:hover{
+        text-decoration: underline;
+}
+
+section#login > div#formulario > form > input#botao{
+        display: inline-block;
+        padding: 5px;
+        margin-left: 10px;
+        background-color: #680c55;
+        color:white;
+        font-size: 15px;
+        font-weight: bold;
+        width: 40%;
+
 }
