@@ -122,6 +122,7 @@ section#login > div#formulario > form > p > a {
         border: 1px solid #a12087;
         text-decoration: none;
         font-size: 1em;
+        transition: .8s;
 }
 
 section#login > div#formulario > form > p > a:hover{
@@ -138,10 +139,18 @@ section#login > div#formulario > form > input#botao{
         display: inline-block;
         padding: 5px;
         margin-left: 10px;
-        background-color: #680c55;
-        color:white;
+        background-color: white;
+        color:#680c55;
         font-size: 15px;
         font-weight: bold;
         width: 40%;
+        border-radius: 5px;
+        border: 1px solid #680c55 ; 
+        transition: .8s;       
 
+}
+
+section#login > div#formulario > form > input#botao:hover{
+        background-color:#680c55;
+        color: white;
 }
