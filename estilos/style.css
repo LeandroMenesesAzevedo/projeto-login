@@ -80,17 +80,23 @@ section#login >  div#formulario > form{
 }
 
 section#login> div#formulario > form > div.campo{
-        margin-bottom: 5px;
+        height: 40px;
+        margin: 5px 0px;
+}
+
+section#login> div#formulario > form > div.campo > span {
+                font-size: 1.2em;
 }
 
 section#login > div#formulario > form > div.campo > label{
         font-size: 0.7em;
         margin-bottom: 10px;
+        display: none;
 
 }
 
 section#login> div#formulario > form > div.campo > input{
-        width: 65%;
+        width: 80%;
         padding: 5px;
         border-radius: 4px;      
 }
@@ -105,14 +111,27 @@ section#login > div#formulario > form > p {
 }
 
 section#login > div#formulario > form > p > a {
+        display: block;
+        text-align: center;
+        width: 100%;
+        height: 40px;
+        padding-top: 10px;
+        background-color: white;
+        color: #c326a3;
+        border-radius: 5px;
+        border: 1px solid #a12087;
         text-decoration: none;
-        color: black;
-
-        font-size: 12px;
+        font-size: 1em;
 }
 
 section#login > div#formulario > form > p > a:hover{
+        background-color: #c326a3;
+        color: white;
         text-decoration: underline;
+}
+
+section#login > div#formulario > form > p > a > span {
+        font-size: 1em;
 }
 
 section#login > div#formulario > form > input#botao{
