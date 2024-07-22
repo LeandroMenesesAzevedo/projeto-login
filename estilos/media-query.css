@@ -14,6 +14,14 @@ Telas Grandes: Acima de 1200px
         body{
             background-image: linear-gradient(to bottom,#4d2b46, #703E66, #9C3B88, #C70CAD);
         }
+
+        main{
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+        }
+
         section#login{
             width: 80vw;
         }
@@ -36,6 +44,13 @@ Telas Grandes: Acima de 1200px
 
     body{
         background-image: linear-gradient(to bottom,#4d2b46, #703E66, #9C3B88, #C70CAD, #e91ece);
+    }
+
+    main{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
     }
 
     section#login {
